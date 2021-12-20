@@ -21,15 +21,15 @@
         justify-content: space-around;
 
         p{
-            font-size: 25px;
+            font-size: $fuente-grande;
         }
 
         ul{
             li{
-                font-size: 1.3rem;
+                font-size: $fuente-grande;
                 list-style: none;
                 display: inline;
-                padding:5px
+                padding:5px;
             }
         }
     }
@@ -48,7 +48,7 @@
         .item-content{
             p{
                 margin-right: 120px;
-                font-size: 1.5rem;
+                font-size: $fuente-grande;
                 color: rgb(221, 53, 53);
             }
         }

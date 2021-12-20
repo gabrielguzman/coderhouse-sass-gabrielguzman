@@ -84,7 +84,7 @@ img {
 
 .content-inicio p {
   color: white;
-  font-size: 20px;
+  font-size: 1em;
   font-family: 'Arial';
   font-style: oblique;
   text-align: center;
@@ -157,10 +157,10 @@ img {
         justify-content: space-around;
   }
   .navbar p {
-    font-size: 25px;
+    font-size: 1.4em;
   }
   .navbar ul li {
-    font-size: 1.3rem;
+    font-size: 1.4em;
     list-style: none;
     display: inline;
     padding: 5px;
@@ -186,7 +186,7 @@ img {
   }
   .content-inicio .item-content p {
     margin-right: 120px;
-    font-size: 1.5rem;
+    font-size: 1.4em;
     color: #dd3535;
   }
 }
