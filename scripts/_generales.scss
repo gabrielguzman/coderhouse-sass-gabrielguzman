@@ -1,0 +1,24 @@
+/*elementos-propiedades globales*/
+
+html, body , .container {
+    height: 100%;
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+/*variables de prueba*/
+$color-nav:#556b99;
+$fuente-normal: 1em;
+$fuente-pequena: 0.8em;
+$fuente-grande: 1.4em;
+$font: font;
+
+.titulo{
+    grid-area: title;
+    background: #343c3f;
+    text-align: center;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+}
