@@ -85,3 +85,69 @@
         font-weight: map-get($estilo-propio, wFuente );
     }
 }
+
+.content-contacto{
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #343c3f;
+    color: whitesmoke;
+
+    .contacto-item1{
+        width: 40%;
+        padding-left: 30px;
+    }
+
+    .contacto-item2{
+        margin-top: 20px;
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+    
+    fieldset{
+        text-align: center;
+        width: 100%;
+        legend{
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+
+    form{
+        width: 100%;
+        padding: 15px;
+        border-radius:10px;
+
+        label{
+            padding-left: 30px;
+            width: 30%;
+            font-weight: bold;
+            display: inline-block;
+          }
+        
+        input[type="text"]{
+            width: 40%;
+            padding: 2px 10px;
+            border: 1px solid #f6f6f6;
+            border-radius: 1px;
+            margin: 8px 0;
+            display: inline;
+        }
+        
+        input[type="submit"]{
+            display: inline;
+        }
+        
+        textarea{
+          width: 80%;
+          height: 150px;
+          margin: 8px 0;
+          resize: none;
+        }
+
+    }
+
+}

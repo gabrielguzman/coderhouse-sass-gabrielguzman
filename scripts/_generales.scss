@@ -49,4 +49,28 @@ $estilo-propio:(
     backColor: rgb(243, 223, 223),
     tPadding: 20px,
 
-)
+);
+
+/* Extends para uso de botones*/
+.btn {
+    width: 150px;
+    text-align: center;
+    padding: 9px 0;
+    margin: 2px auto;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+  }
+  
+  .btn_enviar {
+    @extend .btn;
+    background-color: #108EFF;
+  }
+  .btn_borrar {
+    @extend .btn;
+    background-color: #D61E20;
+  }
+  .btn_cancelar {
+    @extend .btn;
+    background-color: #4cc052;
+  }

@@ -65,5 +65,15 @@
         align-items: center;
     }
 
+    .content-contacto{
+        grid-area: content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #343c3f;
+        color: whitesmoke;
+    }
+  
 
 }

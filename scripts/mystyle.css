@@ -42,6 +42,29 @@ img {
 }
 
 /*MAP-GET*/
+/* Extends para uso de botones*/
+.btn, .btn_enviar, .btn_borrar, .btn_cancelar {
+  width: 150px;
+  text-align: center;
+  padding: 9px 0;
+  margin: 2px auto;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.btn_enviar {
+  background-color: #108EFF;
+}
+
+.btn_borrar {
+  background-color: #D61E20;
+}
+
+.btn_cancelar {
+  background-color: #4cc052;
+}
+
 .container {
   display: -ms-grid;
   display: grid;
@@ -174,6 +197,81 @@ img {
   font-weight: 800;
 }
 
+.content-contacto {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #343c3f;
+  color: whitesmoke;
+}
+
+.content-contacto .contacto-item1 {
+  width: 40%;
+  padding-left: 30px;
+}
+
+.content-contacto .contacto-item2 {
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 20px;
+}
+
+.content-contacto fieldset {
+  text-align: center;
+  width: 100%;
+}
+
+.content-contacto fieldset legend {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content-contacto form {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.content-contacto form label {
+  padding-left: 30px;
+  width: 30%;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.content-contacto form input[type="text"] {
+  width: 40%;
+  padding: 2px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 1px;
+  margin: 8px 0;
+  display: inline;
+}
+
+.content-contacto form input[type="submit"] {
+  display: inline;
+}
+
+.content-contacto form textarea {
+  width: 80%;
+  height: 150px;
+  margin: 8px 0;
+  resize: none;
+}
+
 @media (min-width: 1200px) {
   .container {
     display: -ms-grid;
@@ -255,6 +353,27 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .content-contacto {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #343c3f;
+    color: whitesmoke;
   }
 }
 /*# sourceMappingURL=mystyle.css.map */
