@@ -53,4 +53,17 @@
             }
         }
     }
+
+    .content-nosotros{
+        grid-area: content;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(231, 223, 231);
+        gap: 20px;
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }

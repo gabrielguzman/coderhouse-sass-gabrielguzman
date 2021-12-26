@@ -70,3 +70,18 @@
         }
     }
 }
+
+.content-nosotros{
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: center;
+    background-color: map-get($estilo-propio, backColor);
+
+    p{
+        font-size: map-get($estilo-propio, sFuente );
+        padding-left: map-get($estilo-propio, tPadding );
+        font-weight: map-get($estilo-propio, wFuente );
+    }
+}
