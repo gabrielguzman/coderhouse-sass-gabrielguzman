@@ -74,3 +74,34 @@ $estilo-propio:(
     @extend .btn;
     background-color: #4cc052;
   }
+
+@mixin boxes ($ancho, $alto, $color) {
+    width: $ancho;
+    height: $alto;
+    background-color: $color;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 5%;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.box_uno{
+    @include boxes(250px, 250px, tomato)
+}
+
+
+.box_dos{
+    @include boxes(250px, 250px, #07889B)
+}
+
+.box_tres{
+    @include boxes(250px, 250px, #A239CA)
+}
+  
+.box_cuatro{
+    @include boxes(250px, 250px, #E24E42)
+}
