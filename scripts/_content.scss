@@ -89,17 +89,6 @@
 .content-servicios{
     display: flex;
     flex-direction: row;
-    background-color: #343c3f;
-    gap: 2px 2px;
-    grid-area: content;
-    color: white;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-servicios{
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     background-color: #343c3f;
     gap: 4px 10px;
@@ -114,6 +103,25 @@
 
     p{
         margin-top: 40px;
+    }
+}
+
+.content-portfolio{
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 71, 71);
+
+    img{
+        height: auto;
+        width: auto;
+        border-radius: 20px;
+    }
+
+    p{
+        text-align: center;
     }
 }
 

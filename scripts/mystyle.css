@@ -289,29 +289,6 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #343c3f;
-  gap: 2px 2px;
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: content;
-  color: white;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.content-servicios {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background-color: #343c3f;
@@ -335,6 +312,35 @@ img {
 
 .content-servicios p {
   margin-top: 40px;
+}
+
+.content-portfolio {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4b4747;
+}
+
+.content-portfolio img {
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+}
+
+.content-portfolio p {
+  text-align: center;
 }
 
 .content-contacto {
@@ -514,6 +520,30 @@ img {
             align-items: center;
     background-color: #343c3f;
     color: whitesmoke;
+  }
+  .content-portfolio {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: content;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #6b6060;
+  }
+  .content-portfolio img {
+    width: 400px;
+    height: auto;
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+  }
+  .content-portfolio p {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=mystyle.css.map */

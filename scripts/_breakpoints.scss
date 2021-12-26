@@ -74,6 +74,24 @@
         background-color: #343c3f;
         color: whitesmoke;
     }
-  
+    
+    .content-portfolio{
+        grid-area: content;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 5px;
+        justify-content: center;
+        background-color: rgb(107, 96, 96);
+
+        img{
+            width: 400px;
+            height: auto;
+            filter: grayscale(1);
+        }
+
+        p{
+            text-align: center;
+        }
+    }
 
 }
